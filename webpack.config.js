@@ -23,9 +23,8 @@ module.exports = {
 		root: __dirname,
 		alias: {
 			// components
-
-			// styles
-			applicationStyles: 'app/resources/assets/css/styles.css'
+			Main: 'app/resources/assets/js/components/Main.jsx',
+			Header: 'app/resources/assets/js/components/Header.jsx',
 		},
 		extensions: ['', '.js', '.jsx']
 	},
