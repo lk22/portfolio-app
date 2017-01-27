@@ -35,9 +35,11 @@
     "karma-mocha-reporter": "^2.0.0",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^1.7.0",
+    "laravel-elixir": "^6.0.0-15",
     "mocha": "^2.4.5",
     "script-loader": "^0.6.1",
     "style-loader": "^0.13.0",
+    "watch": "^1.0.1",
     "webpack": "^1.12.13"
   }
 }
