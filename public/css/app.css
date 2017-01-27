@@ -1,0 +1,33 @@
+#app-header {
+  height: 60px;
+  width: 100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  background: lightblue;
+  padding: 1rem;
+}
+
+#app-header .right-header .menu {
+  list-style-type: none;
+  display: inline;
+  height: 50px;
+  margin-top: 1rem;
+}
+
+#app-header .right-header .menu li {
+  display: inline;
+  margin-left: 2rem;
+  padding: 1rem;
+}
+
+#app-header .right-header .menu li .menu-link {
+  color: #000;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background: beige;
+}
+
+/*# sourceMappingURL=app.css.map */
