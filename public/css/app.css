@@ -3,7 +3,7 @@
   width: 100%;
   padding-left: 0px;
   padding-right: 0px;
-  background: lightblue;
+  background: transparent;
   padding: 1rem;
 }
 
@@ -21,13 +21,43 @@
 }
 
 #app-header .right-header .menu li .menu-link {
-  color: #000;
+  color: #fff;
 }
 
-body {
+#main {
+  color: #fff;
+}
+
+#main h3 a {
+  color: #fff;
+}
+
+#main .powered-by-container {
+  margin-top: 10rem;
+}
+
+#main .powered-by-container .powered-by {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+#main .see-more {
+  margin-top: 5rem;
+}
+
+.app-body {
+  color: #fff;
   height: 100%;
   width: 100%;
-  background: beige;
+  background: #00c6ff;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #00c6ff, #0072ff);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(right, #00c6ff, #0072ff);
+  background: linear-gradient(to left, #00c6ff, #0072ff);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /*# sourceMappingURL=app.css.map */

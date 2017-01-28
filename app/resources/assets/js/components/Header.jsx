@@ -12,7 +12,7 @@ const Header = (props) => {
 					<li><Link className="menu-link" to="/about" activeClassName="active" activeStyle={ { fontWeight: "bold" } }>About</Link></li>
 					<li><Link className="menu-link" to="/examples" activeClassName="active" activeStyle={ { fontWeight: "bold" } }>Examples</Link></li>
 					<li><Link className="menu-link" to="/contact" activeClassName="active" activeStyle={ { fontWeight: "bold" } }>Contact</Link></li>
-					<li><a className="fork-me" href="https://www.github.com/lk22/ReactBoilerplate">Github</a></li>
+					<li><a className="fork-me" href="https://www.github.com/lk22/ReactAppBoilerplate">Github</a></li>
 				</ul>
 			</div>
 		</div>
