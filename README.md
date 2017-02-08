@@ -1,6 +1,12 @@
 # React Application Boilerplate
 A simple react Boilerplate to get you started on your new fresh react application
 
+# Updates
+it recently has implemented Redux and react router redux package to allow tracking your redux store in navigation.
+there is added setup for a redux store that is implemented in the main script of this boilerplate.
+are your up to date with redux and its actions and abillities, there is added action generator and reducer files that are ready to be used
+to be filled with your own custom actions and reducers.
+
 # Usage
 before getting started with this u need to install some packages that this boilerplate uses
 to do that run : 	npm install 	to install packages see "packages.json" for packages that are required.
