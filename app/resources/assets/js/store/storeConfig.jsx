@@ -1,10 +1,12 @@
 var redux = require('redux');
+import {routerReducer } from 'react-router-redux';
 // require todos here
 
 // config the redux store to hold state
 export var configure = (state = {}) => {
   var reducer = redux.combineReducers({
-    // combine reducers here
+    routing: routerReducer, // routing reducer to keep track of the state while navigating
+	// custom made reducers goes here for combining
   });
 
   var store = redux.createStore(reducer, state, redux.compose(
