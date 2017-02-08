@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "karma start",
-    "server": "node server.js"
+    "createComponent": "touch app/resources/assets/js/components/Component.jsx && cat stubs/component.txt >> app/resources/assets/js/components/Component.jsx"
   },
   "author": "",
   "license": "ISC",
