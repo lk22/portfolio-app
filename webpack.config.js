@@ -22,10 +22,14 @@ module.exports = {
 	resolve: {
 		root: __dirname,
 		alias: {
-			// components
+			// root components
 			Main: 'app/resources/assets/js/components/Main.jsx',
 			Header: 'app/resources/assets/js/components/Header.jsx',
 
+			// section component => (child components)
+			 MainBanner: 'app/resources/assets/js/components/sections/MainBanner.jsx',
+
+			// redux related files
 			actions: 'app/resources/assets/js/actions/actions.jsx',
 			reducers: 'app/resources/assets/js/reducers/reducers.jsx',
 			store: 	  'app/resources/assets/js/store/storeConfig.jsx',
