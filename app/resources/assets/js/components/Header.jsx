@@ -11,7 +11,7 @@ export const Header = (props) => {
 				<ul className="menu">
 					<li><Link className="menu-link" to="/about" activeClassName="active" activeStyle={ { fontWeight: "bold" } }>About</Link></li>
 					<li><Link className="menu-link" to="/examples" activeClassName="active" activeStyle={ { fontWeight: "bold" } }>Projects</Link></li>
-					<li><Link className="menu-link" to="/contact" activeClassName="active" activeStyle={ { fontWeight: "bold" } }>Contact</Link></li>
+					// <li><Link className="menu-link" to="/contact" activeClassName="active" activeStyle={ { fontWeight: "bold" } }>Contact</Link></li>
 				</ul>
 			</div>
 		</div>

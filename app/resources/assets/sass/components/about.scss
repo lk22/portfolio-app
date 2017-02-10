@@ -1,0 +1,20 @@
+#about{
+	height:643px;
+	width: 90%;
+	margin:0px auto;
+	background:#fff;
+	margin-top: 3rem;
+	padding:2rem;
+	// left column
+	.about-left__profile{
+		background: #F4F8F9;
+		color: #000;
+		.left__profile_img{
+			padding:1rem;
+			border-bottom:2px solid #fff;
+		}
+		.left__profile_contact_information{
+			padding:1rem;
+		}
+	}
+}

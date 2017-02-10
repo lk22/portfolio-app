@@ -10,6 +10,7 @@ var store = require('store').configure({});
 
 // page components
 import Main from 'Main';
+import About from 'About';
 
 const history = syncHistoryWithStore(browserHistory, store);
 
@@ -17,9 +18,8 @@ const history = syncHistoryWithStore(browserHistory, store);
 ReactDOM.render(
   	<Provider store={store}>
   		<Router history={history}>
-	      <Route path="/" component={Main}>
-
-	      </Route>
+	      <Route path="/" component={Main}></Route>
+	      <Route path="/about" component={About} />
     	</Router>
   	</Provider>,
   	document.getElementById('app')

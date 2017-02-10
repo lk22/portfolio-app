@@ -24,10 +24,14 @@ module.exports = {
 		alias: {
 			// root components
 			Main: 'app/resources/assets/js/components/Main.jsx',
+			About: 'app/resources/assets/js/components/About.jsx',
 			Header: 'app/resources/assets/js/components/Header.jsx',
 
 			// section component => (child components)
-			 MainBanner: 'app/resources/assets/js/components/sections/MainBanner.jsx',
+			MainBanner: 'app/resources/assets/js/components/sections/MainBanner.jsx',
+				// profile components
+				ProfileImgSection: 'app/resources/assets/js/components/profile/ProfileImgSection.jsx',
+				ContactInformationSection: 'app/resources/assets/js/components/profile/ContactInformationSection.jsx',
 
 			// redux related files
 			actions: 'app/resources/assets/js/actions/actions.jsx',

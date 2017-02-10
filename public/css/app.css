@@ -55,10 +55,33 @@
   margin-top: 5rem;
 }
 
+#about {
+  height: 643px;
+  width: 90%;
+  margin: 0px auto;
+  background: #fff;
+  margin-top: 3rem;
+  padding: 2rem;
+}
+
+#about .about-left__profile {
+  background: #F4F8F9;
+  color: #000;
+}
+
+#about .about-left__profile .left__profile_img {
+  padding: 1rem;
+  border-bottom: 2px solid #fff;
+}
+
+#about .about-left__profile .left__profile_contact_information {
+  padding: 1rem;
+}
+
 #main-banner {
   height: 643px;
   width: 100%;
-  background-image: url(https://unsplash.imgix.net/photo-1423683249427-8ca22bd873e0?fit=crop&fm=jpg&h=700&q=75&w=1050);
+  background-image: url(https://lonelyplanetimages.imgix.net/mastheads/GettyImages-126140612_super%20.jpg?sharp=10&vib=20&w=1200);
   background-position: center center;
   background-size: cover;
   margin-top: -10px;
@@ -93,7 +116,7 @@
   color: #fff;
   height: 100%;
   width: 100%;
-  background: #E9EBEE;
+  background: #F4F8F9;
 }
 
 /*# sourceMappingURL=app.css.map */
