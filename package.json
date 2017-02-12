@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.15.3",
+    "bootstrap": "^3.3.7",
     "express": "^4.14.0",
     "laravel-elixir": "^6.0.0-15",
     "react": "^0.14.7",
@@ -31,7 +32,7 @@
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
     "gulp-watch": "^4.3.11",
-    "jquery": "^2.2.1",
+    "jquery": "^3.1.1",
     "karma": "^0.13.22",
     "karma-chrome-launcher": "^0.2.3",
     "karma-mocha": "^0.2.2",

@@ -4,7 +4,6 @@ var ReactDOM = require('react-dom');
 var {Provider} = require('react-redux');
 var {Route, Router, IndexRoute, HashHistory, browserHistory} = require('react-router');
 import { syncHistoryWithStore } from 'react-router-redux'
-
 // redux store
 var store = require('store').configure({});
 

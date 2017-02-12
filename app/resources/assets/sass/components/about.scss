@@ -1,5 +1,5 @@
 #about{
-	height:643px;
+	min-height:643px;
 	width: 90%;
 	margin:0px auto;
 	background:#fff;
@@ -11,10 +11,41 @@
 		color: #000;
 		.left__profile_img{
 			padding:1rem;
-			border-bottom:2px solid #fff;
+			border-bottom:5px solid #fff;
 		}
 		.left__profile_contact_information{
 			padding:1rem;
+			.grey-text {
+				color: #777;
+			}
+		}
+	}
+
+	.about-right__profile {
+		margin-left:5%;
+		@extends .about-left__profile;
+		border:2px soild #fff;
+		.right__profile-resumne {
+			background: #F4F8F9;
+			padding: 2rem;
+
+			.tab-header {
+				background: #bdc3c7;
+				.nav {
+					border-bottom: 1px solid #2c3e50;
+					li {
+						border: 1px solid #2c3e50;
+						a{
+							color: #000;
+						}
+					}
+				}
+			}
+
+			.tab-content{
+				min-height:506px;
+				color: #000;
+			}
 		}
 	}
 }

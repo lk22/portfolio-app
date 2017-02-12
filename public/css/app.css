@@ -56,7 +56,7 @@
 }
 
 #about {
-  height: 643px;
+  min-height: 643px;
   width: 90%;
   margin: 0px auto;
   background: #fff;
@@ -71,11 +71,47 @@
 
 #about .about-left__profile .left__profile_img {
   padding: 1rem;
-  border-bottom: 2px solid #fff;
+  border-bottom: 5px solid #fff;
 }
 
 #about .about-left__profile .left__profile_contact_information {
   padding: 1rem;
+}
+
+#about .about-left__profile .left__profile_contact_information .grey-text {
+  color: #777;
+}
+
+#about .about-right__profile {
+  margin-left: 5%;
+  @extends .about-left__profile;
+  border: 2px soild #fff;
+}
+
+#about .about-right__profile .right__profile-resumne {
+  background: #F4F8F9;
+  padding: 2rem;
+}
+
+#about .about-right__profile .right__profile-resumne .tab-header {
+  background: #bdc3c7;
+}
+
+#about .about-right__profile .right__profile-resumne .tab-header .nav {
+  border-bottom: 1px solid #2c3e50;
+}
+
+#about .about-right__profile .right__profile-resumne .tab-header .nav li {
+  border: 1px solid #2c3e50;
+}
+
+#about .about-right__profile .right__profile-resumne .tab-header .nav li a {
+  color: #000;
+}
+
+#about .about-right__profile .right__profile-resumne .tab-content {
+  min-height: 506px;
+  color: #000;
 }
 
 #main-banner {

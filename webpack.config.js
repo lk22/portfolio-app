@@ -32,6 +32,9 @@ module.exports = {
 				// profile components
 				ProfileImgSection: 'app/resources/assets/js/components/profile/ProfileImgSection.jsx',
 				ContactInformationSection: 'app/resources/assets/js/components/profile/ContactInformationSection.jsx',
+				Resume: 'app/resources/assets/js/components/profile/Resume.jsx',
+				ResumeTabHeader: 'app/resources/assets/js/components/profile/ResumeTabHeader.jsx',
+				ResumeTabContentSection: 'app/resources/assets/js/components/profile/ResumeTabContentSection.jsx',
 
 			// redux related files
 			actions: 'app/resources/assets/js/actions/actions.jsx',
