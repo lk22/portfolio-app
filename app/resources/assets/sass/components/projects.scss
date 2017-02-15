@@ -1,0 +1,68 @@
+@keyframes gelatine {
+  from, to { transform: scale(1, 1); }
+  25% { transform: scale(0.9, 1.1); }
+  50% { transform: scale(1.1, 0.9); }
+  75% { transform: scale(0.95, 1.05); }
+}
+
+#projects {
+	height:600px;
+	width: 80%;
+	background:#1abc9c;
+	padding:2rem;
+	margin: 0 auto;
+	position: absolute;
+	top:6rem;
+	left: 13rem;
+	overflow: auto;
+	animation: gelatine 0.2s ease;
+
+	.home{
+		position:fixed;
+		top:20px;
+		left:30px;
+
+		&:hover{
+			color: #3498db;
+			animation: gelatine 1s ease;
+			transition: ease-in-out 0.2s all;
+		}
+
+		&:not(:hover) {
+			transition: ease-in-out 0.2s all;
+		}
+
+		a{
+			color:#000;
+			font-size:20px;
+				&:hover{
+				color: #3498db;
+				transition: ease-in-out 0.2s all;
+			}
+
+			&:not(:hover) {
+				transition: ease-in-out 0.2s all;
+			}
+
+		}
+	}
+
+	::-webkit-scrollbar {
+		width: 12px;
+
+		::-webkit-scrollbar-thumb {
+
+		}
+	}
+
+	#projectGallery{
+		#project-header{
+			height:50px;
+			width: 100%;
+		}
+
+		.project{
+			margin-bottom:2rem;
+		}
+	}
+}

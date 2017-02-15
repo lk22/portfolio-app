@@ -1,9 +1,109 @@
+@-webkit-keyframes gelatine {
+  from, to {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+    transform: scale(0.95, 1.05);
+  }
+}
+
+@keyframes gelatine {
+  from, to {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+    transform: scale(0.95, 1.05);
+  }
+}
+
+#projects {
+  height: 600px;
+  width: 80%;
+  background: #1abc9c;
+  padding: 2rem;
+  margin: 0 auto;
+  position: absolute;
+  top: 6rem;
+  left: 13rem;
+  overflow: auto;
+  -webkit-animation: gelatine 0.2s ease;
+  animation: gelatine 0.2s ease;
+}
+
+#projects .home {
+  position: fixed;
+  top: 20px;
+  left: 30px;
+}
+
+#projects .home:hover {
+  color: #3498db;
+  -webkit-animation: gelatine 1s ease;
+  animation: gelatine 1s ease;
+  -webkit-transition: ease-in-out 0.2s all;
+  transition: ease-in-out 0.2s all;
+}
+
+#projects .home:not(:hover) {
+  -webkit-transition: ease-in-out 0.2s all;
+  transition: ease-in-out 0.2s all;
+}
+
+#projects .home a {
+  color: #000;
+  font-size: 20px;
+}
+
+#projects .home a:hover {
+  color: #3498db;
+  -webkit-transition: ease-in-out 0.2s all;
+  transition: ease-in-out 0.2s all;
+}
+
+#projects .home a:not(:hover) {
+  -webkit-transition: ease-in-out 0.2s all;
+  transition: ease-in-out 0.2s all;
+}
+
+#projects ::-webkit-scrollbar {
+  width: 12px;
+}
+
+#projects #projectGallery #project-header {
+  height: 50px;
+  width: 100%;
+}
+
+#projects #projectGallery .project {
+  margin-bottom: 2rem;
+}
+
 #app-header {
   height: 60px;
   width: 100%;
   padding-left: 0px;
   padding-right: 0px;
-  background: #000;
+  background: transparent;
   padding: 1rem;
   position: fixed;
   margin-top: -70px;
@@ -19,6 +119,7 @@
   display: inline;
   height: 50px;
   margin-top: 1rem;
+  margin-left: 15rem;
 }
 
 #app-header .right-header .menu li {
@@ -115,12 +216,12 @@
 }
 
 #main-banner {
-  height: 643px;
+  min-height: 703px;
   width: 100%;
   background-image: url(https://lonelyplanetimages.imgix.net/mastheads/GettyImages-126140612_super%20.jpg?sharp=10&vib=20&w=1200);
   background-position: center center;
   background-size: cover;
-  margin-top: -10px;
+  margin-top: -70px;
   color: #fff;
 }
 
